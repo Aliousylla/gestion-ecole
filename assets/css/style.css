@@ -1,0 +1,329 @@
+:root {
+    --black: #0D131C;
+    --white: #ffffff;
+    --meuve: #9E00FF;
+    --bleu:  #0063FF;
+    --primary: rgba(18, 21, 194, 0.57);
+    --gradien:  #192F57 100%;
+    --gradienbtn:linear-gradient(90deg, #9E00FF 0%, #1873F2 100%);
+  }
+:root{
+--bluevert:linear-gradient(to right, rgb(36, 33, 182) , rgb(2, 236, 119));;
+}
+body{
+    background-image: linear-gradient(to right, rgb(36, 33, 182) , rgb(2, 236, 119));
+}
+.bag{
+    background-image: linear-gradient(to right, rgb(2, 236, 119), rgb(182, 33, 170) );
+}
+*{
+    padding: 0;
+    margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: var(--black);
+  
+}
+
+.body{
+    height: 100vh;
+    width: 100%;
+}
+header{
+padding-bottom:  5rem !important;
+
+}
+.container-fluid{
+background: #0D131C;
+
+}
+.container-fluid .container img{
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+  
+}
+section .imgclient{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+section .container  img{
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+  
+}
+
+.icone{
+    color: var(--white);
+font-size:2.5rem;
+}
+section.bouton .container{
+    margin: auto;
+    width: 40%;
+}
+section.bouton .container .btne{
+    background: var(--gradienbtn);
+    border: none;
+    padding: 10px;
+}
+section.bouton .container .btne1{
+    background: var(--meuve);
+    border: none;
+    padding: 10px;
+}
+section.bouton .container .btne2{
+    background: var(--primary);
+    border: none;
+    padding: 10px;
+}
+section.bouton .container .btne3{
+    background: var(--bleu);
+    border: none;
+    padding: 10px;
+}
+section.bouton .container a{
+    text-decoration: none;
+    background: none;
+    color: var(--white);
+}
+.catalogue .photo img{
+object-fit: cover;
+    margin: auto;
+    width: 100%;
+    height: 90%;
+    background: var(--white);
+}
+.catalogue h2{
+    color: var(--bleu);
+}
+.text span{
+    position: relative;
+    left: 10%;
+}
+.menu a.btn{
+    font-size: 1rem;
+    color: var(--gradien);
+}
+.menu a.btn:hover{
+   background: var(--gradien);
+   color: var(--white);
+}
+section.confirmation{
+    color: var(--white);
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 70% !important;
+    margin: auto !important;
+    background: var(--black);
+}
+.confirmation .container textarea{
+   background: var(--black);
+   border: none;
+   padding: 10px;
+   color: var(--white);
+}
+@media screen and ( max-width:1125px ) {
+    .icone{
+        color: var(--white);
+    font-size:2rem;
+    }
+  
+    header{
+        padding-bottom:  5rem !important;
+        }
+        section .imgclient{
+            display: block;
+            margin: auto;
+        }
+        section .container  img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          
+        }
+        section.bouton .container{
+            padding: 0 !important;
+            margin: 0 !important;
+            width: 100% !important;
+            margin: auto !important;
+    
+        }
+        section.bouton .container .btne1{
+            background: var(--meuve);
+            border: none;
+            
+           
+        }
+        section.bouton .container .btne2{
+            background: var(--primary);
+            border: none;
+           width: 100%;
+            width: 45%;
+        }
+        section.bouton .container .btne3{
+            background: var(--bleu);
+            border: none;
+            
+            width: 45%;
+        }
+        section.bouton .container a{
+            text-decoration: none;
+            background: none;
+            color: var(--white);
+            font-size: .7rem;
+        }
+       
+
+}
+@media screen and ( max-width:340px ) {
+    section.bouton .container a{
+        text-decoration: none;
+        background: none;
+        color: var(--white);
+        font-size: .5rem;
+    }
+    .menu a.btn{
+        font-size: 1rem;
+    }
+}
+@media screen and ( max-width:396px ) {
+    .text h2,h3{
+        font-size: 1rem;
+    }.recap_commande .prix{
+        font-size: 1rem;
+    }
+    .recap_commande .choix {
+        display: inline-block;
+        width: 65%;
+        font-size: 1rem;
+    }
+    .recap_commande .numero {
+        display: inline-block;
+        font-size: 1rem;
+    }
+}
+@media screen and ( max-width:322px ) {
+    .text h2,h3{
+        font-size: 0.8rem;
+    }
+    .menu a.btn{
+        font-size: 0.1rem;
+        
+    }
+}
+
+@media screen and ( max-width:769px ) {
+   
+.menu a.btn{
+    font-size: 0.9rem;
+    
+}section.confirmation{
+   
+    
+    width: 100% !important;
+    
+}
+
+}
+@media screen and ( max-width:529px ) {
+   
+    .menu a.btn{
+        font-size: 0.6rem;
+        
+    }.recap_commande .prix{
+        font-size: 1rem;
+    }
+    .recap_commande .choix {
+        display: inline-block;
+        width: 65%;
+        font-size: 1rem;
+    }
+    .recap_commande .numero {
+        display: inline-block;
+        font-size: 1rem;
+    }
+
+    }
+    
+ 
+
+    .recap_commande{
+        margin: auto;
+        color: var(--white);
+        padding: 20px;
+    }
+    .recap_commande .numero{
+        border: solid;
+        padding: 5px;
+        border-radius: 10px;
+        margin: 10px;
+        
+    }
+    .recap_commande .choix {
+        display: inline-block;
+        width: 65%;
+    }
+    .container .input{
+        background: var(--gradien);
+        border: none;
+        margin: 1rem;
+        color: var(--white);
+       
+    }
+    .container input.saisie{
+        background: var(--gradien);
+        border: none;
+        width: 90%;
+        height: 1.5rem;
+        color: var(--white);
+    }
+    .container .input i{
+        background: var(--gradien);
+
+        
+    }
+    .container .especes i{
+        font-size: 2.7rem;
+        color: var(--white);
+        padding: 10px;
+        width: 40%;
+        display: inline-block;
+    }
+
+    /* .recap_commande .prix{
+        text-align: end;
+        padding: 15px;
+        margin: 10px;
+        position: relative;
+        left: 20%;
+    } */
+    /* .Commentaire{
+        text-align: center;
+        width: 50%;
+        display: block;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    padding: 10px;
+    margin: 20px;
+    background: var(--black);
+    }
+    .Commentaire label{
+        color: var(--white);
+        font-size: 1.1rem;
+        display: block;
+        padding: 20px;
+        }
+     textarea{
+        color: var(--white);
+        background: var(--black);
+        border: none;
+        width: 90%;
+        font-size: 1rem;
+        display: block;
+        padding: 10px;
+        margin: 10px;
+    }
+     */
